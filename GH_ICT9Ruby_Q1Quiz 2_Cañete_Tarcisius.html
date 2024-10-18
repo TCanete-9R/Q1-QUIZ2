@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toy Story 3 Movie</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style type="text/css">
+        body {
+            font-family: 'Playright CU', Cursive;
+            background-color: #E69C61;
+            color: whitesmoke;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #E58A6F;
+            padding: 20px;
+            text-align: center;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .body {
+            padding: 20px;
+            text-align: center;
+        }
+        .characters-img {
+            width: 140px;
+            border: 5px solid grey;
+            border-radius: 15%;
+            margin: 10px 0;
+        }
+        .characters {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+        .card {
+            background-color: rgba(255, 255, 255, 0.1);
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px;
+            text-align: center;
+            width: 150px;
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .footer {
+            background-color: #E58A6F;
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+        select {
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border: none;}
+        h2 {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Toy Story 3 Movie</h1>
+    </div>
+    
+    <div class="body">
+        <img src="toystory3.jpg" alt="Toy Story 3 characters" class="characters-img">
+        <p>As Andy prepares to depart for college, Buzz, Woody, and the rest of his loyal toys are troubled about their uncertain future. Toy Story 3 is a comical adventure that lands the toys in a room full of untamed tots who can't wait to get their sticky little fingers on these "new" toys.</p>
+    </div>
+
+    <div class="header">
+        <h1>The Characters</h1>
+    </div>
+
+    <div class="characters">
+        <div class="card">
+            <img src="woody.jpg" class="characters-img" alt="Woody">
+            <h4><a href="https://facts.net/lifestyle/entertainment/16-facts-about-sheriff-woody-toy-story/">Woody</a>
+            </h4>
+            <p> A Cowboy doll</p>
+        </div>
+
+        <div class="card">
+            <img src="buzz2.jpg" class="characters-img" alt="Buzz">
+            <h4><a href="https://www.peakpx.com/en/hd-wallpaper-desktop-aykqu">Buzz</a></h4>
+            <p> Have fun and embrace adventure</p>
+        </div>
+
+        <div class="card">
+            <img src="jessie.jpg" class="characters-img" alt="Jessie">
+            <h4><a href="https://wallpapers.com/wallpapers/jessie-toy-story-looking-through-window-6mqxoqyzicgvt21n.html">Jessie</a>
+            </h4>
+            <p>A rough-and-tumble cowgirl doll with a passion for yodeling</p>
+        </div>
+
+        <div class="card">
+            <img src="andy.jpg" class="characters-img" alt="Andy">
+            <h4><a href="https://jonnegroni.com/2014/05/27/andys-dad-toy-story/">Andy</a></h4>
+            <p>A eager boy and imaginative boy </p>
+        </div>
+    </div>
+    
+    <div>
+        <h2>What are your thoughts on this movie?</h2>
+            <form>
+            <label for="feedback">Feedback:</label>
+            <textarea id="feedback" cols="20" rows="5" placeholder="Type here..."></textarea>
+            <input type="submit" value="Submit">
+            <button type="reset">Reset</button>
+    </div>
+    
+    <section id="othermovies">
+        <h2>Recommended Movies</h2>
+        <label for="movies">The Movies:</label>
+        <select id="movies">
+            <option value="">Select a movie</option>
+            <option value="Kung Fu Panda">Kung Fu Panda</option>
+            <option value="Despicable Me 4">Despicable Me 4</option>
+            <option value="Trolls">Trolls</option>
+        </select>
+    </section>
+
+    <div class="footer">
+        <h1>Tarcisius John C. Cañete | 9-Ruby | Q1 Quiz 2</h>
+    </div>
+  </body>
+ </html>
